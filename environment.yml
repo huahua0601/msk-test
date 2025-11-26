@@ -1,0 +1,10 @@
+name: msk-test
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.9
+  - pip
+  - pip:
+    - kafka-python==2.0.2
+
